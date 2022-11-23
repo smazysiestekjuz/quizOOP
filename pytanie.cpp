@@ -4,3 +4,8 @@
 #include <cstdlib>
 
 using namespace std;
+
+void Pytanie::wczytaj()
+{
+
+}
