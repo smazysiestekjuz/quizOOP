@@ -13,4 +13,6 @@ class Pytanie
     string odpowiedz;
     int punkt;
 
+    void wczytaj();
+
 };
