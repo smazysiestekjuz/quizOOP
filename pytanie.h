@@ -14,5 +14,7 @@ class Pytanie
     int punkt;
 
     void wczytaj(); //wczytaj pytania z pliku
+    void zadaj(); // pokazuje pytanie, czyta odpowiedz
+
 
 };
