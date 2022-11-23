@@ -13,6 +13,6 @@ class Pytanie
     string odpowiedz;
     int punkt;
 
-    void wczytaj();
+    void wczytaj(); //wczytaj pytania z pliku
 
 };
