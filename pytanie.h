@@ -15,6 +15,6 @@ class Pytanie
 
     void wczytaj(); //wczytaj pytania z pliku
     void zadaj(); // pokazuje pytanie, czyta odpowiedz
-
+    void sprawdz(); //sprawdza poprawność odpowiedzi
 
 };
