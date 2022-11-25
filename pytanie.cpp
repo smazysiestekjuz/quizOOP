@@ -9,4 +9,6 @@ void Pytanie::wczytaj()
 {
     fstream plik;
     plik.open("quiz.txt",ios::in);
+
+    if(plik.good()==false)
 }
