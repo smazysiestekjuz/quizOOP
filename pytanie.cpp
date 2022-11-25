@@ -11,4 +11,8 @@ void Pytanie::wczytaj()
     plik.open("quiz.txt",ios::in);
 
     if(plik.good()==false)
+    {
+        cout<<"Nie udalo sie otworzyc pliku!";
+        exit(0);
+    }
 }
