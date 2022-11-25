@@ -1,0 +1,8 @@
+# depslib dependency file v1.0
+1669375437 source:d:\codeblocks\quiz_obiektowy\main.cpp
+	<iostream>
+	"pytanie.h"
+
+1669375461 d:\codeblocks\quiz_obiektowy\pytanie.h
+	<iostream>
+
