@@ -4,17 +4,16 @@ using namespace std;
 
 class Pytanie
 {
-    public:
+   public:
 
-    string tresc;
-    string a,b,c,d;
-    int nr_pytania;
-    string poprawna;
-    string odpowiedz;
-    int punkt;
+   string tresc;
+   string a,b,c,d;
+   int nr_pytania;
+   string poprawna;
+   string odpowiedz;
+   int punkt;
 
-    void wczytaj(); //wczytaj pytania z pliku
-    void zadaj(); // pokazuje pytanie, czyta odpowiedz
-    void sprawdz(); //sprawdza poprawność odpowiedzi
-
+   void wczytaj(); //wczytuje pytania z pliku
+   void zadaj(); //pokazuje pytanie, czyta odpowiedz
+   void sprawdz(); //sprawdza poprawnosc odpowiedzi
 };
